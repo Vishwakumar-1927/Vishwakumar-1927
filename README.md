@@ -40,17 +40,6 @@ timeline
     2027 : Graduating as an AI engineer
 ```
 
-## Featured projects
-
-### BizGuide AI
-*AI-powered business guidance platform · Solo project*
-
-Tell it your business type, budget, and location, and it returns personalized recommendations plus a detailed analysis report.
-
-- Gemini API integrated through REST endpoints as the recommendation engine
-- Analyzes market demand, competition, investment, and expected profitability
-- Prompts designed to turn raw user inputs into structured business advice
-- Full MERN stack built independently and deployed online
 
 **How it works**
 

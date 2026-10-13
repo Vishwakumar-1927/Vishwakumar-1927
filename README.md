@@ -9,6 +9,7 @@
 <p align="center">
   <a href="https://vishwakumar-portfolio-ruby.vercel.app"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="mailto:vishwakumar1910205@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://bizguide-ai-frontend.onrender.com"><img src="https://img.shields.io/badge/BizGuide_AI-2563EB?style=for-the-badge&logo=googlegemini&logoColor=white" alt="BizGuide AI"></a>
 </p>
 
 ---
@@ -25,18 +26,6 @@ I'm looking for a **Junior AI Developer** role where I can grow into LLM applica
 - Learning RAG and AI agents
 - Open to Junior AI Developer roles and internships
 
-## How I build AI apps
-
-```mermaid
-flowchart LR
-    A[Understand the problem] --> B[Design prompts]
-    B --> C[Connect LLM API]
-    C --> D[Build backend and UI]
-    D --> E[Test and find failures]
-    E --> F[Deploy online]
-    E -.->|improve| B
-```
-
 ## My journey
 
 ```mermaid
@@ -45,7 +34,7 @@ timeline
     2023 : Started B.E. in AI and Data Science
     2025 : Full stack internship at Sparkout Tech
          : Built a MERN e-commerce app with JWT auth
-    Now : Shipped a Gemini-powered AI app
+    Now : BizGuide AI live with Gemini API
         : Building an AI college enquiry chatbot
         : Learning RAG and AI agents
     2027 : Graduating as an AI engineer
@@ -53,15 +42,18 @@ timeline
 
 ## Featured projects
 
-### BizGuide AI
-*AI-powered business guidance platform · Solo project*
 
-Tell it your business type, budget, and location, and it returns personalized recommendations plus a detailed analysis report.
+**How it works**
 
-- Gemini API integrated through REST endpoints as the recommendation engine
-- Analyzes market demand, competition, investment, and expected profitability
-- Prompts designed to turn raw user inputs into structured business advice
-- Full MERN stack built independently and deployed online
+```mermaid
+flowchart LR
+    A[User inputs<br/>type, budget, location] --> B[React frontend]
+    B --> C[Express and Node API]
+    C --> D[Prompt design]
+    D --> E[Gemini API]
+    E --> F[Recommendations<br/>and analysis report]
+    C <--> G[(MongoDB)]
+```
 
 **Stack:** MongoDB · Express · React · Node.js · Gemini API
 **Links:** [Source code](https://github.com/Vishwakumar-1927/BizGuide-AI) · [Live demo](https://bizguide-ai-frontend.onrender.com)

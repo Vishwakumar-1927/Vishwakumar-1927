@@ -1,7 +1,9 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2563EB&height=110&section=header" width="100%" alt="">
+
 <h1 align="center">Vishwakumar R</h1>
 
 <p align="center">
-  AI & Data Science student building LLM-powered applications, from prompt design to deployment.
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=2563EB&center=true&vCenter=true&width=520&lines=AI+%26+Data+Science+Student;Building+LLM-powered+applications;Gemini+API+%7C+MERN+%7C+Python;Open+to+Junior+AI+Developer+roles" alt="Typing animation">
 </p>
 
 <p align="center">
@@ -24,6 +26,20 @@ I'm looking for a **Junior AI Developer** role where I can grow into LLM applica
 - Learning RAG and AI agents
 - Open to Junior AI Developer roles and internships
 
+## My journey
+
+```mermaid
+timeline
+    title From student to AI builder
+    2023 : Started B.E. in AI and Data Science
+    2025 : Full stack internship at Sparkout Tech
+         : Built a MERN e-commerce app with JWT auth
+    Now : BizGuide AI live with Gemini API
+        : Building an AI college enquiry chatbot
+        : Learning RAG and AI agents
+    2027 : Graduating as an AI engineer
+```
+
 ## Featured projects
 
 ### BizGuide AI
@@ -35,6 +51,18 @@ Tell it your business type, budget, and location, and it returns personalized re
 - Analyzes market demand, competition, investment, and expected profitability
 - Prompts designed to turn raw user inputs into structured business advice
 - Full MERN stack built independently and deployed online
+
+**How it works**
+
+```mermaid
+flowchart LR
+    A[User inputs<br/>type, budget, location] --> B[React frontend]
+    B --> C[Express and Node API]
+    C --> D[Prompt design]
+    D --> E[Gemini API]
+    E --> F[Recommendations<br/>and analysis report]
+    C <--> G[(MongoDB)]
+```
 
 **Stack:** MongoDB · Express · React · Node.js · Gemini API
 **Links:** [Source code](https://github.com/Vishwakumar-1927/BizGuide-AI) · [Live demo](https://bizguide-ai-frontend.onrender.com)
@@ -83,3 +111,5 @@ A chatbot that answers student and visitor questions about admissions, courses, 
 ## Let's connect
 
 Interested in AI projects, internships, or junior roles? Email me at [vishwakumar1910205@gmail.com](mailto:vishwakumar1910205@gmail.com) or visit my [portfolio](https://vishwakumar-portfolio-ruby.vercel.app).
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=2563EB&height=90&section=footer" width="100%" alt="">
